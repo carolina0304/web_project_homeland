@@ -1,11 +1,12 @@
 .header {
-  display: flex;
+  width: 90%;
 }
 
 .header__logo {
-  width: 254.84px;
+  max-width: 254.84;
   height: 68.94px;
   top: 34px;
   left: 513px;
   position: absolute;
+  flex-wrap: wrap;
 }
