@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+}
+
+.header__logo {
+  width: 254.84px;
+  height: 68.94px;
+  top: 34px;
+  left: 513px;
+  position: absolute;
+}
