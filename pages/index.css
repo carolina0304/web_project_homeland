@@ -172,6 +172,7 @@
     width: 320px;
     height: 200px;
     top: 306px;
+    object-fit: cover;
   }
 
   .intro {
