@@ -1,10 +1,7 @@
 .lead {
   width: 90%;
-  min-height: calc(63.74vh-637px);
   top: 194px;
   left: 148px;
-  gap: 0px;
-  opacity: 0px;
 }
 
 .lead__title {
@@ -30,8 +27,6 @@
   height: 72px;
   top: 426px;
   left: 280px;
-  gap: 0px;
-  opacity: 0px;
   position: absolute;
   font-family: Inter;
   font-size: 30px;
@@ -49,8 +44,6 @@
   padding-bottom: 615px;
   top: 562px;
   left: 148px;
-  gap: 0px;
-  opacity: 0px;
   position: absolute;
   flex-wrap: wrap;
 }
@@ -129,6 +122,5 @@
     width: 320px;
     height: 200px;
     top: 306px;
-    object-fit: cover;
   }
 }
