@@ -77,3 +77,119 @@
   text-decoration-skip-ink: none;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 768px) {
+  .intro {
+    width: 720px;
+    height: 573px;
+    top: 1041px;
+    left: 24px;
+  }
+  .intro__title {
+    width: 707px;
+    height: 147px;
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 49px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .intro__text1 {
+    width: 720px;
+    height: 136px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .intro__text2 {
+    width: 720px;
+    height: 34px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .intro__text3 {
+    width: 720px;
+    height: 182px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.08px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    width: 288px;
+    height: 1033px;
+    top: 570px;
+    left: 16px;
+  }
+  .intro__title {
+    width: 288px;
+    height: 175px;
+    top: 570px;
+    left: 16px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .intro__text1 {
+    width: 288px;
+    height: 300px;
+    top: 785px;
+    left: 16px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .intro__text2 {
+    width: 288px;
+    height: 34px;
+    top: 1095px;
+    left: 16px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .intro__text3 {
+    width: 288px;
+    height: 442px;
+    top: 1161px;
+    left: 16px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.08px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+}
