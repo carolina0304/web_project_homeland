@@ -55,7 +55,7 @@
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .lead {
     display: flex;
     justify-content: center;
@@ -91,7 +91,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 544px) {
   .lead {
     width: 288px;
     height: 144px;

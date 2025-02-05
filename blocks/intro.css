@@ -78,7 +78,7 @@
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .intro {
     width: 720px;
     height: 573px;
@@ -131,7 +131,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 544px) {
   .intro {
     width: 288px;
     height: 1033px;

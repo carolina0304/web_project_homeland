@@ -5,18 +5,16 @@
   font-family: "Inter";
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .page {
     width: 768px;
     height: 1742px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 544px) {
   .page {
     width: 320px;
     height: 1705px;
-    top: -4524px;
-    left: 101px;
   }
 }

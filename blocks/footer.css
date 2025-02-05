@@ -26,7 +26,7 @@
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .footer {
     width: 194px;
     height: 16px;
@@ -48,7 +48,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 544px) {
   .footer {
     width: 194px;
     height: 14px;
