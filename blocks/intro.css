@@ -11,7 +11,7 @@
   height: 173.92px;
   top: 1269px;
   left: 148px;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 54px;
   font-weight: 900;
   line-height: 58px;
@@ -27,7 +27,7 @@
   height: 135.66px;
   top: 1482.91px;
   left: 148px;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 24px;
   font-weight: 400;
   line-height: 34px;
@@ -43,7 +43,7 @@
   height: 33.91px;
   top: 1628.56px;
   left: 148px;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 24px;
   font-weight: 400;
   line-height: 34px;
@@ -60,7 +60,7 @@
   top: 1694.46px;
   left: 148px;
   color: #ffffff;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 16px;
   font-weight: 400;
   line-height: 26.08px;
@@ -80,7 +80,7 @@
   .intro__title {
     width: 707px;
     height: 147px;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 45px;
     font-weight: 900;
     line-height: 49px;
@@ -91,7 +91,7 @@
   .intro__text1 {
     width: 720px;
     height: 136px;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 24px;
     font-weight: 400;
     line-height: 34px;
@@ -102,7 +102,7 @@
   .intro__text2 {
     width: 720px;
     height: 34px;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 24px;
     font-weight: 400;
     line-height: 34px;
@@ -113,7 +113,7 @@
   .intro__text3 {
     width: 720px;
     height: 182px;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 16px;
     font-weight: 400;
     line-height: 26.08px;
@@ -135,7 +135,7 @@
     height: 175px;
     top: 570px;
     left: 16px;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 32px;
     font-weight: 900;
     line-height: 35px;
@@ -148,7 +148,7 @@
     height: 300px;
     top: 785px;
     left: 16px;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 24px;
     font-weight: 400;
     line-height: 30px;
@@ -162,7 +162,7 @@
     height: 34px;
     top: 1095px;
     left: 16px;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 24px;
     font-weight: 400;
     line-height: 34px;
@@ -176,7 +176,7 @@
     height: 442px;
     top: 1161px;
     left: 16px;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 16px;
     font-weight: 400;
     line-height: 26.08px;
