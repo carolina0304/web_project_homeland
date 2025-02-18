@@ -9,7 +9,7 @@
   grid-template-columns: 460px 484px;
   grid-template-rows: 152px 460px;
   grid-gap: 48px 40px;
-  margin: 0;
+  margin: 72px 24px 0 24px;
 }
 
 .places__title {
