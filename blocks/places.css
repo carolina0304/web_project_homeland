@@ -118,20 +118,20 @@
   }
 
   .places__image {
-    width: 100%;
+    width: 340px;
     height: 340px;
   }
   .places__paragraph1 {
     width: 100%;
     font-size: 16px;
-    line-height: 26.08px;
+    line-height: 20px;
     margin: 0;
   }
   .places__paragraph2 {
     width: 100%;
     font-weight: 400;
     font-size: 16px;
-    line-height: 26.08px;
+    line-height: 20px;
     margin: 24px 0 0 0;
   }
 
@@ -159,17 +159,17 @@
   }
 
   .places__title {
-    max-width: 288px;
+    max-width: 100%;
     font-size: 32px;
     line-height: 35px;
     margin: 30px 16px 0 16px;
   }
   .places__heading {
-    max-width: 288px;
+    max-width: 100%;
     margin: 0 16px 8px 16px;
   }
   .places__artist {
-    max-width: 288px;
+    max-width: 100%;
     margin: 0 16px 0 16px;
   }
 
