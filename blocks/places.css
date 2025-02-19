@@ -107,7 +107,6 @@
     font-weight: 900;
     font-size: 42px;
     line-height: 46px;
-    margin: 22px 0;
   }
   .places__heading {
     max-width: 67px;
@@ -133,7 +132,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26.08px;
-    margin: 25px 0;
+    margin: 24px 0 0 0;
   }
 
   .places__button {
@@ -149,8 +148,12 @@
 
   .places__content {
     max-width: 100%;
-    grid-template-columns: 100%;
-    grid-template-rows: repeat(5, 0fr) 50px;
+    grid-template-areas:
+      "title"
+      "artist"
+      "image"
+      "paragraph1"
+      "paragraph2";
     grid-gap: 30px 0;
     margin: 0;
   }
@@ -176,19 +179,11 @@
   }
 
   .places__paragraph1 {
-    max-width: 288px;
-    margin: 0 16px 25px 16px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26.08px;
+    max-width: 100%;
   }
 
   .places__paragraph2 {
-    max-width: 288px;
-    margin: 0 16px 0 16px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26.08px;
+    max-width: 100%;
   }
 
   .places__button {
