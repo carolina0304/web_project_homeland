@@ -6,16 +6,18 @@
 .places__content {
   max-width: 100%;
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 152px auto auto;
   grid-template-areas:
     "title artist"
     "image paragraph"
-    "image paragraph"
     "button paragraph";
   grid-gap: 48px 40px;
-  margin: 34px auto;
+  margin: 80px auto;
 }
 
 .places__title {
+  grid-area: title;
   max-width: 460px;
   font-family: "Inter";
   font-weight: 900;
@@ -26,6 +28,7 @@
 }
 
 .places__heading {
+  grid-area: artist;
   max-width: 330px;
   font-family: "Inter";
   font-weight: 400;
@@ -37,6 +40,7 @@
 }
 
 .places__artist {
+  grid-area: artist;
   max-width: 455px;
   font-family: "Inter";
   font-weight: 400;
@@ -46,8 +50,9 @@
 }
 
 .places__image {
+  grid-area: image;
   width: 100%;
-  height: 100%;
+  height: 460px;
   box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
@@ -56,6 +61,7 @@
 }
 
 .places__paragraph1 {
+  grid-area: paragraph;
   width: 484px;
   font-family: "Inter";
   font-weight: 400;
@@ -65,6 +71,7 @@
 }
 
 .places__paragraph2 {
+  grid-area: paragraph;
   width: 484px;
   font-family: "Inter";
   font-weight: 400;
@@ -73,6 +80,7 @@
   margin: 25px 0;
 }
 .places__button {
+  grid-area: button;
   width: 289px;
   height: 48px;
   background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
@@ -106,40 +114,47 @@
 
   .places__content {
     max-width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto;
     grid-template-areas:
       "title artist"
       "image paragraph"
-      "image paragraph"
       "button paragraph";
     grid-gap: 48px 28px;
-    margin: 24px;
+    margin: 72px 24px auto;
   }
   .places__title {
+    grid-area: title;
     max-width: 340px;
     font-weight: 900;
     font-size: 42px;
     line-height: 46px;
   }
   .places__heading {
+    grid-area: artist;
     max-width: 67px;
     margin: 0 0 8px 0;
   }
 
   .places__artist {
+    grid-area: artist;
     margin: 0;
   }
 
   .places__image {
-    width: 340px;
+    grid-area: image;
+    width: 100%;
     height: 340px;
   }
   .places__paragraph1 {
+    grid-area: paragraph;
     width: 100%;
     font-size: 16px;
     line-height: 20px;
     margin: 0;
   }
   .places__paragraph2 {
+    grid-area: paragraph;
     width: 100%;
     font-weight: 400;
     font-size: 16px;
@@ -148,6 +163,7 @@
   }
 
   .places__button {
+    grid-area: button;
     margin: 0;
   }
 }
@@ -160,45 +176,55 @@
 
   .places__content {
     max-width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(6, 0fr);
     grid-template-areas:
       "title"
       "artist"
       "image"
-      "paragraph1"
-      "paragraph2";
+      "paragraph"
+      "button";
     grid-gap: 30px 0;
     margin: 0;
+    margin-top: 20px;
   }
 
   .places__title {
+    grid-area: title;
     max-width: 100%;
     font-size: 32px;
     line-height: 35px;
     margin: 30px 16px 0 16px;
   }
   .places__heading {
+    grid-area: artist;
     max-width: 100%;
     margin: 0 16px 8px 16px;
   }
   .places__artist {
+    grid-area: artist;
     max-width: 100%;
     margin: 0 16px 0 16px;
   }
 
   .places__image {
+    grid-area: image;
     width: 100%;
     height: 320px;
   }
 
   .places__paragraph1 {
+    grid-area: paragraph;
     max-width: 100%;
   }
 
   .places__paragraph2 {
+    grid-area: paragraph;
     max-width: 100%;
   }
 
   .places__button {
+    grid-area: button;
     margin: auto;
   }
 }
